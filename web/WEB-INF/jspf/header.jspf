@@ -1,0 +1,32 @@
+<%@ page pageEncoding="UTF-8" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <title>Онлайн Бибилиотека</title>
+        <link href="../css/style_main.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+                <div class="logo">
+                    <img src="../images/library.png" alt="Логотип" name="logo">
+                </div>
+                <div class="description">
+                    <h3>Онлайн библиотека проекта Infopuls.ua</h3>
+                </div>
+                <div class="search_form">
+                    <form name="search_form" method="post">
+                        <input type="text" name="search_String" value="" size="110" />
+                        <input class="search_button" type="submit" value="Поиск" name="search_button" />
+                        <select name="search_option">
+                            <option>Название</option>
+                            <option>Автор</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+
+
